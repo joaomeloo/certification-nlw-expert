@@ -4,8 +4,9 @@
 Essa API tem como objetivo verificar se um usuário já realizou uma prova, retornar as questões da prova, verificar as respostas do usuário e retornar um ranking com as 10 melhores notas.
 
 $ docker-compose up -d
-- necessário executar o CreateSeed.java para gerar questões e alternativas de exemplo
 $ mvn spring-boot:run
+obs: necessário executar o CreateSeed.java para gerar questões e alternativas de exemplo
+
 
 ## Documentação da API
 
