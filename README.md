@@ -12,7 +12,7 @@ obs: necessário executar o CreateSeed.java para gerar questões e alternativas 
 
 #### Verificação se o usuário já realizou a prova
 
-```http
+```
   POST /students/verifyIfHasCertification
 ```
 
@@ -31,7 +31,7 @@ obs: necessário executar o CreateSeed.java para gerar questões e alternativas 
 
 #### Retorna as questões da prova por tecnologia
 
-```http
+```
   GET /technology/{technology}
 ```
 
@@ -41,7 +41,7 @@ obs: necessário executar o CreateSeed.java para gerar questões e alternativas 
 
 
 
-```json
+```
 Exemplo:
   GET /technology/JAVA
 
@@ -51,7 +51,7 @@ Exemplo:
 
 #### Analiza as questões, retornando acerto ou erro
 
-```http
+```
   POST /students/certification/answer
 ```
 
@@ -86,7 +86,7 @@ Exemplo:
 
 #### Retorna ranking TOP10 maiores notas
 
-```http
+```
   GET /ranking/top10
 ```
 
